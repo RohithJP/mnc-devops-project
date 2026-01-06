@@ -10,6 +10,9 @@ node {
     }
 
     stage('Deploy to Kubernetes') {
-        sh 'kubectl apply -f k8s/'
+        dir('.') {
+            sh 'kubectl apply -f k8s/'
+        }
     }
 }
+
