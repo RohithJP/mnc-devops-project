@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Welcome to MNC DevOps Project 🚀');
+  res.send('Welcome to MNC DevOps Project 🚀 v2');
 });
 
 app.get('/api/time', (req, res) => {
