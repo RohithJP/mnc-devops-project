@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('🚀 This update came automatically from Jenkins');
+  res.send('🚀 Jenkins auto deploy WORKING');
 });
 
 app.get('/api/time', (req, res) => {
